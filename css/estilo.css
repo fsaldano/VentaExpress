@@ -10,8 +10,21 @@ and open the template in the editor.
 @import url(http://fonts.googleapis.com/css?family=Ubuntu);
 
 a.submenu{
-    padding: 0 0 0 40px;
-    display: none;
+    /*margin: 0 0 0 20px;
+    padding: 0 0 0 60px;*/
+    padding-left: 60px;
+    display:none;
+}
+
+a:hover{
+    background: black;
+}
+
+.vacaciones{
+ padding-left: 30px;   
+  padding-top: 30px; 
+  width: 400px;
+
 }
 
 #contenedor{
@@ -27,7 +40,7 @@ a.submenu{
     width: 30%;
     height: 500px;
     float: left;
-	background: green;
+    background: green;
 }
 #contenido{
    width: 70%;
@@ -35,4 +48,3 @@ a.submenu{
    float: left;
    background: yellow;
 }
-
